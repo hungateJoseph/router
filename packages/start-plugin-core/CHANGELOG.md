@@ -1,5 +1,16 @@
 # @tanstack/start-plugin-core
 
+## 1.171.49
+
+### Patch Changes
+
+- [#8127](https://github.com/TanStack/router/pull/8127) [`41ebd28`](https://github.com/TanStack/router/commit/41ebd288677beacb8eb56953f5f8c26e9d33313e) - fix: use http scheme for sitemap xmlns per sitemaps.org spec
+
+- [#8533](https://github.com/TanStack/router/pull/8533) [`05223c2`](https://github.com/TanStack/router/commit/05223c2ada4d48af4b3881f10e3b6261898b2d40) - Defer sitemap and XML dependencies until sitemap generation is enabled to reduce Start plugin startup work.
+
+- Updated dependencies []:
+  - @tanstack/router-generator@1.167.39
+
 ## 1.171.48
 
 ### Patch Changes

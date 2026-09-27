@@ -1,5 +1,15 @@
 # @tanstack/react-router
 
+## 1.170.41
+
+### Patch Changes
+
+- [#8529](https://github.com/TanStack/router/pull/8529) [`60b8ad1`](https://github.com/TanStack/router/commit/60b8ad1ad00812bf966a8eeee6be238c37ddad74) - Compose only enabled route boundaries instead of rendering inactive wrapper components.
+
+- [#8530](https://github.com/TanStack/router/pull/8530) [`ff66a03`](https://github.com/TanStack/router/commit/ff66a03df4816f44a48a4a37189fc4021b1c8480) - Consolidate the root match context provider while preserving match context in the root shell.
+
+- [#8522](https://github.com/TanStack/router/pull/8522) [`863c8a7`](https://github.com/TanStack/router/commit/863c8a736b96746c56278a16c50554356f5523d1) - Reuse Link href classification and active/inactive results across location updates while preserving live history href formatting.
+
 ## 1.170.40
 
 ### Patch Changes
